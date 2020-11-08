@@ -1,4 +1,4 @@
-ublic class Main {
+ class Main {
     public static void main(String[] args) {
         int[][][] train = createTrain();
         printArray(train);
