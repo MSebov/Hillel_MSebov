@@ -17,7 +17,7 @@ public class BankOperations {
         for (int i = 0; i < years; i++) {
             double addition = cash * percent / 100;
             cash += addition;
-            System.out.printf("After %d year you have %.2f with %.2f of percents \n", (i+1), cash, addition);
+            System.out.printf("After %d year you have %.2f with %.2f of percents \n", (i + 1), cash, addition);
             fullProfit += addition;
         }
 
