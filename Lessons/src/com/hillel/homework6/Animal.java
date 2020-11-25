@@ -1,6 +1,8 @@
 package com.hillel.homework6;
 
-public abstract class Animal implements MakeSound {
+import com.hillel.homework6.Interface.InterfaceMakeSound;
+
+public abstract class Animal implements InterfaceMakeSound {
     protected String id;
     protected int age;
     protected int weight;
