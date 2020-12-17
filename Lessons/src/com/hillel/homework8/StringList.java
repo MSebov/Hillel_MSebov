@@ -102,6 +102,7 @@ public class StringList implements iArrList {
     public boolean clear() {
         System.out.println("run size");
         array = new Object[initSize];
+        pointer = 0;
 
         return true;
     }
